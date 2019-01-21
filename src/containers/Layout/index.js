@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
-import Header from '../Header'
-import Footer from '../Footer'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 const GlobalStyles = createGlobalStyle`
   html {
